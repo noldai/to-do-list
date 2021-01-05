@@ -1,11 +1,3 @@
-/*var listContainer = document.getElementById('listContainer');
-                if (listContainer.style.display === "none"){
-                    listContainer.style.display = "block";
-                } else{
-                    listContainer.style.display = "none";
-                }*/
-
-
 function addTask() { //adds a <li> element to <ul>
     var task = document.getElementById('newTask').value,
         listNode = document.getElementById('list'),
