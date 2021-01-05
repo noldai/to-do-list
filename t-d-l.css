@@ -1,0 +1,24 @@
+body {
+    background-color: grey;
+}
+h1 {
+    text-align: center; /* text-align works with headers and <p> tags only */
+}
+div {
+    margin: auto; /* centers content */
+    width: 50%;
+    padding: 10px;
+    height: 50px;
+}
+#newTask {
+    width: 80%;
+    height: 90%;
+    font-size: 24px;
+}
+#add {
+    width: 15%;
+    height: 90%;
+}
+#remove {
+    float: right;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my to-do list</title>
+    <link rel="stylesheet" href="t-d-l.css">
+</head>
+<body>
+    <h1>My to-do list</h1>
+    <div id="content">
+        <input type="text" id="newTask"></input> <button id="add" onclick="addTask()">Add</button>
+    </div>
+    <h1>Tasks:</h1>
+    <div id="listContainer">
+        <button id="remove" onclick="removeTask()">X</button>
+        <ul id="list">
+        </ul>
+    </div>
+    <script src="t-d-l.js"></script>
+</body>
+</html>
